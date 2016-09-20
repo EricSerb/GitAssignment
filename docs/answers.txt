@@ -1,0 +1,13 @@
+a) Including step 8 there have been 3 commits to the repository.
+b) The .gitignore file was last modified at 10:28:43 on Sep 15th. This file was
+never modified by me though.
+c) The items inside the src folder have yet to be modified by me. Javier
+introduced most of the files at 10:27:32 on Sep 15. He then introduced the
+BasicWeapon file at 13:36:30 on Sep 15. These are the only times that the
+files have been modified.
+d) Git status tells you the status of your local repository and files that
+are being tracked. Git log will show you all of the commits that have been
+pushed to the main repository.
+e) git log -- src/edu/fsu/cs/cen5035/RoleGame.java
+f) git log --grep file
+g) git log --author=Alice --after=09/01/2016 --before=09/16/2016
