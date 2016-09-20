@@ -20,11 +20,11 @@ public class WeaponFactory {
                 return new Sword();
             case "arrow":
                 return new Arrow();
-            /*case "axe":
+            case "axe":
                 return new Axe();
             case "magicstaff":
                 return new MagicStaff();
-                */
+
             default:
                 throw new IllegalArgumentException("Invalid type");
         }
